@@ -2,7 +2,7 @@ name: Daily Morning Market Brief
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 매일 09:00 KST (UTC+9)
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 jobs:
